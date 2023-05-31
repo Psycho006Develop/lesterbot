@@ -1,12 +1,14 @@
 {
 
-    "OWNER_ID":"",
-    "BOT_TOKEN": "",
+    "OWNER_ID":"846879863226368030",
+    "BOT_TOKEN": "MTExMDk2NzE5NzU1MzEzNTY4Ng.Gm8uzk.LYTEvLhhxEymyLqHnMrMHlovbP-bG-5TTfwvs8",
     "tenorAPI":"",
-    "DEFAULT_PREFIX":"",
-    "mongoPass": "",
+    "DEFAULT_PREFIX":"!",
+    "mongoPass": "https://eu-central-1.aws.data.mongodb-api.com/app/data-icsqh/endpoint/data/v1",
     "ERROR_LOGS_CHANNEL": "",
     "YT_COOKIE": ""
     
 }
+
+
 
