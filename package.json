@@ -1,7 +1,7 @@
 {
-  "name": "reaper-2.0",
-  "version": "v8.1.0-beta",
-  "description": "An Open Source discord bot with lots of features",
+  "name": "lester-1.0",
+  "version": "v1.0.0-beta",
+  "description": "Discord multifuctional bot",
   "main": "index.js",
   "engines": {
     "node": ">=16.9.0",
@@ -11,7 +11,7 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Tester",
+  "author": "Psycho006",
   "license": "ISC",
   "dependencies": {
     "@discordjs/builders": "^1.1.0",
@@ -74,17 +74,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Simpleboy353/REAPER-2.0.git"
+    "url": "git+https://github.com/Psycho006Develop/lesterbot"
   },
   "keywords": [
-    "open-source",
+    "moderation",
     "discord",
     "discord-bot",
     "discord.js",
     "multi-purpose-bot"
   ],
   "bugs": {
-    "url": "https://github.com/Simpleboy353/REAPER-2.0/issues"
+    "url": "//"
   },
-  "homepage": "https://github.com/Simpleboy353/REAPER-2.0#readme"
+  "homepage": "//"
 }
