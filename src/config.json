@@ -1,7 +1,7 @@
 {
 
     "OWNER_ID":"846879863226368030",
-    "BOT_TOKEN": "",
+    "BOT_TOKEN": "ADD YOUR BOT TOKEN HERE",
     "tenorAPI":"",
     "DEFAULT_PREFIX":"!",
     "mongoPass": "",
