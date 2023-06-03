@@ -8,3 +8,5 @@ npm uninstall discord.js
 Then
 
 npm install discord.js
+
+For support, join this server https://discord.gg/wvvWd7N8b3
