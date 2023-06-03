@@ -1,6 +1,6 @@
 {
-  "name": "lester-1.0",
-  "version": "v1.0.1",
+  "name": "lester-1.1",
+  "version": "v1.1.0",
   "description": "Discord multifuctional bot",
   "main": "index.js",
   "engines": {
