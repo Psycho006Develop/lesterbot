@@ -7,13 +7,13 @@ function loadSlashCommands(client) {
 
     const table = new ascii().setHeading(" Slash Commands", "Load Status");
   
-    const commandFolders = fs.readdirSync("./SlashCommands");
+    const commandFolders = fs.readdirSync("./src/SlashCommands");
     for (const folder of commandFolders) {
       const commandFiles = fs
-        .readdirSync(`./SlashCommands/${folder}`)
+        .readdirSync(`./src/SlashCommands/${folder}`)
         .filter((file) => file.endsWith(".js"));
       for (const file of commandFiles) {
-        const command = require(`../SlashCommands/${folder}/${file}`);
+        const command = require(`../src/SlashCommands/${folder}/${file}`);
         if (command.name) {
           client.slash.set(command.name, command);
           slash.push(command)

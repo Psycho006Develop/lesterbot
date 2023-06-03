@@ -1,4 +1,4 @@
-const playerEvent = (event) => require(`../events/player/${event}`);
+const playerEvent = (event) => require(`../src/events/player/${event}`);
 const Discord = require("discord.js");
 
 function loadPlayerEvents(client) {

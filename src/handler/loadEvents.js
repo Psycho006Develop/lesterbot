@@ -1,7 +1,7 @@
-const clientEvent = (event) => require(`../events/client/${event}`);
-const guildEvent = (event) => require(`../events/guild/${event}`);
-const menuEvents = (event) => require(`../events/interactions/menus/${event}`)
-const otherEvent = (event) => require(`../events/functions/${event}`);
+const clientEvent = (event) => require(`../src/events/client/${event}`);
+const guildEvent = (event) => require(`../src/events/guild/${event}`);
+const menuEvents = (event) => require(`../src/events/interactions/menus/${event}`)
+const otherEvent = (event) => require(`../src/events/functions/${event}`);
 const Discord = require("discord.js");
 
 function loadEvents(client) {
