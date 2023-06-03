@@ -1,6 +1,6 @@
 Open source discord.js bot made by Psycho006
 
-Current version - v1.0.1
+Current version - v1.1.0
 
 UPDATE Discord.JS. To update simply run
 
