@@ -4,13 +4,13 @@ function loadCommands(client) {
   const ascii = require("ascii-table");
   const table = new ascii().setHeading("Commands", "Load Status");
 
-  const commandFolders = fs.readdirSync("./Commands");
+  const commandFolders = fs.readdirSync("./src/Commands");
   for (const folder of commandFolders) {
     const commandFiles = fs
-      .readdirSync(`./Commands/${folder}`)
+      .readdirSync(`./src/Commands/${folder}`)
       .filter((file) => file.endsWith(".js"));
     for (const file of commandFiles) {
-      const command = require(`../Commands/${folder}/${file}`);
+      const command = require(`../src/Commands/${folder}/${file}`);
       if (command.name) {
         client.commands.set(command.name, command);
         table.addRow(file, "✔️");
