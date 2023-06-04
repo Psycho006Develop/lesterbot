@@ -10,3 +10,5 @@ Then
 npm install discord.js
 
 For support, join this server https://discord.gg/wvvWd7N8b3
+
+Update list https://github.com/Psycho006Develop/lesterbot/commit/main
