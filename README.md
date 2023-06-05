@@ -10,7 +10,6 @@
 <a href="https://discord.gg/pk8Ve68UEH"><img alt="Support Server" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
 </p>
 <h3 align="center">A Multi-purpose Discord bot with many features!</h3>
-<h3 align="center"Update list https://github.com/Psycho006Develop/lesterbot/commit/main</h3>
 
 
 ## Requirements
