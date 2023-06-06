@@ -1,5 +1,5 @@
 const fs = require("fs");
-const chalk = require("chalk");npm install ytdl-core-discord
+const chalk = require("chalk");
 
 const { Client, Collection, GatewayIntentBits, EmbedBuilder } = require("discord.js");
 const { DEFAULT_PREFIX, BOT_TOKEN, ERROR_LOGS_CHANNEL, YT_COOKIE } = require("./src/config.json");
