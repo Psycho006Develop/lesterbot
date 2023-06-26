@@ -21,6 +21,7 @@
     "@iamtraction/google-translate": "^1.1.2",
     "@top-gg/sdk": "^3.1.5",
     "ascii-table": "0.0.9",
+    "axios": "^1.4.0",
     "better-sqlite3": "^7.6.2",
     "booru": "^2.6.3",
     "canvas": "^2.8.0",
@@ -89,7 +90,7 @@
     "multi-purpose-bot"
   ],
   "bugs": {
-    "url": "//"
+    "url": "https://discord.gg/pk8Ve68UEH"
   },
-  "homepage": "//"
+  "homepage": "https://discord.gg/pk8Ve68UEH"
 }
