@@ -2,7 +2,7 @@ const Discord = module.require("discord.js");
 
 module.exports = {
   name: "suggest",
-  description: "Suggest Features for Infinity",
+  description: "Suggest Features for Lester",
   botPerms: ["EmbedLinks"],
   run: async (client, message, args) => {
     const avatar = message.author.avatarURL;
