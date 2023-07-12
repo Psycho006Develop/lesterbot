@@ -22,13 +22,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
-## [1.0.0] - first version
-## [1.1.0]
-## [1.1.1]
+## [1.1.2] - 12.07.2023
 
 ### Added
 
-- 
+-
 
 ### Fixed
 
@@ -36,11 +34,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- 
 
-### Removed
+## [1.1.1]
+## [1.1.0]
+## [1.0.0] - first version
 
--
 ## Requirements
 - Discord.js v14 (`npm install discord.js@latest`)
 - `applications.commands` scope enabled for your bot in Developer Portal (For Slash Cmds).
