@@ -9,7 +9,10 @@
 <a href="PixelJuggernaut/suprabot/network"><img alt="GitHub Forks" src="https://img.shields.io/github/forks/PixelJuggernaut/suprabot?style=for-the-badge"></a>
 <a href="https://discord.gg/pk8Ve68UEH"><img alt="Support Server" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
 </p>
-<h3 align="center">A Multi-purpose Discord bot with many features!</h3>
+<h3 align="center">OpenSource Multi-purpose Discord bot with many features!</h3>
+<h3 align="center">If you don't want to host bot by yourself, use our online version!
+
+[Add bot to your server](https://discord.com/api/oauth2/authorize?client_id=915323367177982012&scope=bot+applications.commands&permissions=1374891928950)</h3>
 
 ## [Unreleased]
 Nothing for now, keep updated!
