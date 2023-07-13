@@ -1,0 +1,95 @@
+{"level":30,"time":1688648483942,"pid":18140,"hostname":"DavidPC","msg":"Validating config file and environment variables"}
+{"level":50,"time":1688648483943,"pid":18140,"hostname":"DavidPC","msg":"env: BOT_TOKEN cannot be empty"}
+{"level":30,"time":1688649056019,"pid":7348,"hostname":"DavidPC","msg":"Validating config file and environment variables"}
+{"level":40,"time":1688649056020,"pid":7348,"hostname":"DavidPC","msg":"env: WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1688649056020,"pid":7348,"hostname":"DavidPC","msg":"env: STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1688649056063,"pid":7348,"hostname":"DavidPC","msg":"Loading commands..."}
+{"level":20,"time":1688649056073,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command anti. Category AUTOMOD is disabled"}
+{"level":20,"time":1688649056075,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command autodelete. Category AUTOMOD is disabled"}
+{"level":20,"time":1688649056117,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command automod. Category AUTOMOD is disabled"}
+{"level":20,"time":1688649056138,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command bank. Category ECONOMY is disabled"}
+{"level":20,"time":1688649056139,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command beg. Category ECONOMY is disabled"}
+{"level":20,"time":1688649056140,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command daily. Category ECONOMY is disabled"}
+{"level":20,"time":1688649056141,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command gamble. Category ECONOMY is disabled"}
+{"level":20,"time":1688649056560,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command giveaway. Category GIVEAWAY is disabled"}
+{"level":20,"time":1688649056561,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command filter. Category IMAGE is disabled"}
+{"level":20,"time":1688649056562,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command generator. Category IMAGE is disabled"}
+{"level":20,"time":1688649056563,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command overlay. Category IMAGE is disabled"}
+{"level":20,"time":1688649056569,"pid":7348,"hostname":"DavidPC","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1688649056570,"pid":7348,"hostname":"DavidPC","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1688649056572,"pid":7348,"hostname":"DavidPC","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1688649056575,"pid":7348,"hostname":"DavidPC","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1688649056576,"pid":7348,"hostname":"DavidPC","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1688649056583,"pid":7348,"hostname":"DavidPC","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1688649056584,"pid":7348,"hostname":"DavidPC","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1688649056586,"pid":7348,"hostname":"DavidPC","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1688649056588,"pid":7348,"hostname":"DavidPC","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1688649056589,"pid":7348,"hostname":"DavidPC","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1688649056591,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command addinvites. Category INVITE is disabled"}
+{"level":20,"time":1688649056592,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command invitecodes. Category INVITE is disabled"}
+{"level":20,"time":1688649056594,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command inviter. Category INVITE is disabled"}
+{"level":20,"time":1688649056595,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command inviterank. Category INVITE is disabled"}
+{"level":20,"time":1688649056596,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command inviteranks. Category INVITE is disabled"}
+{"level":20,"time":1688649056597,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command invites. Category INVITE is disabled"}
+{"level":20,"time":1688649056598,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command invitesimport. Category INVITE is disabled"}
+{"level":20,"time":1688649056598,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command invitetracker. Category INVITE is disabled"}
+{"level":20,"time":1688649056599,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command resetinvites. Category INVITE is disabled"}
+{"level":20,"time":1688649056602,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command ban. Category MODERATION is disabled"}
+{"level":20,"time":1688649056603,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command kick. Category MODERATION is disabled"}
+{"level":20,"time":1688649056606,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command deafen. Category MODERATION is disabled"}
+{"level":20,"time":1688649056607,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command disconnect. Category MODERATION is disabled"}
+{"level":20,"time":1688649056609,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command move. Category MODERATION is disabled"}
+{"level":20,"time":1688649056610,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command purge. Category MODERATION is disabled"}
+{"level":20,"time":1688649056611,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command purgeattach. Category MODERATION is disabled"}
+{"level":20,"time":1688649056612,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command purgebots. Category MODERATION is disabled"}
+{"level":20,"time":1688649056613,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command purgelinks. Category MODERATION is disabled"}
+{"level":20,"time":1688649056614,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command purgetoken. Category MODERATION is disabled"}
+{"level":20,"time":1688649056614,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command purgeuser. Category MODERATION is disabled"}
+{"level":20,"time":1688649056616,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command undeafen. Category MODERATION is disabled"}
+{"level":20,"time":1688649056617,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command vmute. Category MODERATION is disabled"}
+{"level":20,"time":1688649056619,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command vunmute. Category MODERATION is disabled"}
+{"level":20,"time":1688649056620,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command nick. Category MODERATION is disabled"}
+{"level":20,"time":1688649056621,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command purge. Category MODERATION is disabled"}
+{"level":20,"time":1688649056623,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command voice. Category MODERATION is disabled"}
+{"level":20,"time":1688649056624,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command softban. Category MODERATION is disabled"}
+{"level":20,"time":1688649056625,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command timeout. Category MODERATION is disabled"}
+{"level":20,"time":1688649056626,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command unban. Category MODERATION is disabled"}
+{"level":20,"time":1688649056627,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command untimeout. Category MODERATION is disabled"}
+{"level":20,"time":1688649056628,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command warn. Category MODERATION is disabled"}
+{"level":20,"time":1688649056629,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command warnings. Category MODERATION is disabled"}
+{"level":20,"time":1688649056630,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command bassboost. Category MUSIC is disabled"}
+{"level":20,"time":1688649056632,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command loop. Category MUSIC is disabled"}
+{"level":20,"time":1688649056633,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command lyric. Category MUSIC is disabled"}
+{"level":20,"time":1688649056635,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command np. Category MUSIC is disabled"}
+{"level":20,"time":1688649056635,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command pause. Category MUSIC is disabled"}
+{"level":20,"time":1688649056637,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command play. Category MUSIC is disabled"}
+{"level":20,"time":1688649056638,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command queue. Category MUSIC is disabled"}
+{"level":20,"time":1688649056638,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command resume. Category MUSIC is disabled"}
+{"level":20,"time":1688649056639,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command search. Category MUSIC is disabled"}
+{"level":20,"time":1688649056640,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command seek. Category MUSIC is disabled"}
+{"level":20,"time":1688649056641,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command shuffle. Category MUSIC is disabled"}
+{"level":20,"time":1688649056642,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command skip. Category MUSIC is disabled"}
+{"level":20,"time":1688649056643,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command stop. Category MUSIC is disabled"}
+{"level":20,"time":1688649056644,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command volume. Category MUSIC is disabled"}
+{"level":20,"time":1688649056645,"pid":7348,"hostname":"DavidPC","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1688649056646,"pid":7348,"hostname":"DavidPC","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1688649056647,"pid":7348,"hostname":"DavidPC","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1688649056649,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1688649056650,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1688649056651,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1688649056652,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":20,"time":1688649056653,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command suggest. Category SUGGESTION is disabled"}
+{"level":20,"time":1688649056656,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command suggestion. Category SUGGESTION is disabled"}
+{"level":20,"time":1688649056659,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command ticket. Category TICKET is disabled"}
+{"level":20,"time":1688649056660,"pid":7348,"hostname":"DavidPC","msg":"Skipping Command ticketcat. Category TICKET is disabled"}
+{"level":30,"time":1688649056677,"pid":7348,"hostname":"DavidPC","msg":"Loaded 42 commands"}
+{"level":30,"time":1688649056677,"pid":7348,"hostname":"DavidPC","msg":"Loaded 33 slash commands"}
+{"level":30,"time":1688649056677,"pid":7348,"hostname":"DavidPC","msg":"Loading contexts..."}
+{"level":30,"time":1688649056679,"pid":7348,"hostname":"DavidPC","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1688649056679,"pid":7348,"hostname":"DavidPC","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1688649056679,"pid":7348,"hostname":"DavidPC","msg":"Loading events..."}
+{"level":30,"time":1688649056718,"pid":7348,"hostname":"DavidPC","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1688649057166,"pid":7348,"hostname":"DavidPC","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1688649057166,"pid":7348,"hostname":"DavidPC","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1688649057941,"pid":7348,"hostname":"DavidPC","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1688649059260,"pid":7348,"hostname":"DavidPC","msg":"Logged in as Supra Bot#4468! (915323367177982012)"}

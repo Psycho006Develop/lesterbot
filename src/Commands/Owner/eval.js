@@ -1,38 +1,83 @@
-/**Use the command at your own risk!
- *We will not be responsible for the the negative outcomes, if anything wrong happens!*/
-const Discord = module.require("discord.js");
-const OWNER_ID = require("../../config.json").OWNER_ID;
+const { EmbedBuilder, ApplicationCommandOptionType } = require("discord.js");
+const { EMBED_COLORS } = require("@root/config");
+
+// This dummy token will be replaced by the actual token
+const DUMMY_TOKEN = "MY_TOKEN_IS_SECRET";
+
+/**
+ * @type {import("@structures/Command")}
+ */
 module.exports = {
   name: "eval",
-  description: "Run a whole fuckin' code with this!",
-  botPerms: ["EmbedLinks"],
-  run: async (client, message, args) => {
-    //Eval Command(Not to be made public btw!)
-    if (message.author.id != OWNER_ID) {
-      return message.channel.send("Limited to the bot owner only!");
-    }
-      try {
-          const code = args.join(" ");
-          if (!code) {
-              return message.channel.send("What do you want to evaluate?");
-          }
-          let evaled = eval(code);
-
-          if (typeof evaled !== "string") evaled = require("util").inspect(evaled);
-
-          const embed = new Discord.EmbedBuilder()
-              .setAuthor({
-                  name: "Eval",
-                 iconURL: message.author.avatarURL()
-              })
-              .addFields(
-                  { name: "Input", value: `\`\`\`${code}\`\`\`` },
-                  { name: "Output", value: `\`\`\`${evaled}\`\`\`` }
-              )
-              .setColor("Green");;
-            message.channel.send({ embeds: [embed] });
-    } catch (err) {
-      message.channel.send(`\`ERROR\` \`\`\`xl\n${err}\n\`\`\``);
-    }
+  description: "evaluates something",
+  category: "OWNER",
+  botPermissions: ["EmbedLinks"],
+  command: {
+    enabled: true,
+    usage: "<script>",
+    minArgsCount: 1,
   },
+  slashCommand: {
+    enabled: false,
+    options: [
+      {
+        name: "expression",
+        description: "content to evaluate",
+        type: ApplicationCommandOptionType.String,
+        required: true,
+      },
+    ],
+  },
+
+  async messageRun(message, args) {
+    const input = args.join(" ");
+
+    if (!input) return message.safeReply("Please provide code to eval");
+
+    let response;
+    try {
+      const output = eval(input);
+      response = buildSuccessResponse(output, message.client);
+    } catch (ex) {
+      response = buildErrorResponse(ex);
+    }
+    await message.safeReply(response);
+  },
+
+  async interactionRun(interaction) {
+    const input = interaction.options.getString("expression");
+
+    let response;
+    try {
+      const output = eval(input);
+      response = buildSuccessResponse(output, interaction.client);
+    } catch (ex) {
+      response = buildErrorResponse(ex);
+    }
+    await interaction.followUp(response);
+  },
+};
+
+const buildSuccessResponse = (output, client) => {
+  // Token protection
+  output = require("util").inspect(output, { depth: 0 }).replaceAll(client.token, DUMMY_TOKEN);
+
+  const embed = new EmbedBuilder()
+    .setAuthor({ name: "📤 Output" })
+    .setDescription("```js\n" + (output.length > 4096 ? `${output.substr(0, 4000)}...` : output) + "\n```")
+    .setColor("Random")
+    .setTimestamp(Date.now());
+
+  return { embeds: [embed] };
+};
+
+const buildErrorResponse = (err) => {
+  const embed = new EmbedBuilder();
+  embed
+    .setAuthor({ name: "📤 Error" })
+    .setDescription("```js\n" + (err.length > 4096 ? `${err.substr(0, 4000)}...` : err) + "\n```")
+    .setColor(EMBED_COLORS.ERROR)
+    .setTimestamp(Date.now());
+
+  return { embeds: [embed] };
 };
